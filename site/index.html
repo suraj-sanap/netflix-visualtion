@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flixa – Watch anywhere</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <nav class="nav">
+    <a class="logo" href="#">FLIXA</a>
+    <div class="nav-right">
+      <select aria-label="Language"><option>English</option><option>हिन्दी</option><option>मराठी</option></select>
+      <a class="btn btn-red small" href="#signin">Sign in</a>
+    </div>
+  </nav>
+  <div class="hero-body">
+    <h1>Unlimited movies, shows, and more</h1>
+    <p class="sub">Starts at ₹149. Cancel anytime.</p>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <form class="signup" id="signup" novalidate>
+      <input type="email" id="email" placeholder="Email address" aria-label="Email address" required>
+      <button class="btn btn-red big" type="submit">Get Started ›</button>
+    </form>
+    <p class="msg" id="msg" role="status"></p>
+  </div>
+  <div class="curve"></div>
+</header>
+
+<section class="band">
+  <h2>Trending Now</h2>
+  <div class="row" id="row"></div>
+</section>
+
+<section class="band features">
+  <article><div><h2>Enjoy on your TV</h2><p>Watch on smart TVs, consoles, streaming sticks and more.</p></div><div class="art a1"></div></article>
+  <article class="rev"><div><h2>Download your shows</h2><p>Save your favourites and always have something to watch offline.</p></div><div class="art a2"></div></article>
+  <article><div><h2>Watch everywhere</h2><p>Stream on your phone, tablet, laptop and TV without limits.</p></div><div class="art a3"></div></article>
+</section>
+
+<section class="band faq">
+  <h2>Frequently Asked Questions</h2>
+  <details><summary>What is Flixa?</summary><p>Flixa is a demo streaming landing page served by Apache HTTP Server (httpd).</p></details>
+  <details><summary>How much does it cost?</summary><p>Plans start at ₹149 a month. This is dummy content for learning.</p></details>
+  <details><summary>Where can I watch?</summary><p>Anywhere, on any device with a browser.</p></details>
+  <details><summary>How do I cancel?</summary><p>Online, any time, with no contracts.</p></details>
+</section>
+
+<footer>
+  <p>Questions? Call 000-800-000-0000</p>
+  <ul><li>FAQ</li><li>Help Centre</li><li>Terms of Use</li><li>Privacy</li><li>Contact Us</li></ul>
+  <p class="tiny">Served by Apache httpd · Educational demo, not affiliated with any streaming brand.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
